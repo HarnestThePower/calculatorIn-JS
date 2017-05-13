@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+html{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background: lavender; 
+}
+form{
+	margin: 60px 0 0 430px;
+	text-align: center;
+	border: 1px solid black;
+	border-width: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 30%;
+	background: linear-gradient(blue, white); 
+}
+#button{
+	width: 50px;
+	height: 50px;
+	background-color: pink;
+	font-size: 20px;
+}
+#button:active{
+	background-color: blue;
+	transform: translateY(4px);
+	opacity: 0.1;
+	border: none;
+}
+
+
+#textbox{
+	background-color: pink;
+	border: none;
+	height: 30px;
+	width: 60%;
+	text-align: right;
+}

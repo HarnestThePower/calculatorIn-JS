@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator</title>
+	<script src="scriptcalc.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylecalc.css">
+</head>
+<body>
+
+	<form name= "form">
+		<input id="textbox" type="textbox" name="txt"><br>
+		<p>
+			<input id = "button" type="button" value="CE" onclick="ce()">
+			<input id = "button" type="button" name="bpercent" value="%" onclick="display(bpercent.value)">
+			<input id = "button" type="button" name="bdivide" value="/" onclick="display(bdivide.value)">
+		</p>
+		<p>
+			<input id = "button" type="button" name="b7" value="7" onclick="display(b7.value)">
+			<input id = "button" type="button" name="b8" value="8" onclick="display(b8.value)">
+			<input id = "button" type="button" name="b9" value="9" onclick="display(b9.value)">
+			<input id = "button" type="button" name="bX" value="*" onclick="display(bX.value)">
+		</p>
+		<p>
+			<input id = "button" type="button" name="b4" value="4" onclick="display(b4.value)">
+			<input id = "button" type="button" name="b5" value="5" onclick="display(b5.value)">
+			<input id = "button" type="button" name="b6" value="6" onclick="display(b6.value)">
+			<input id = "button" type="button" name="bminus" value="-" onclick="display(bminus.value)">
+		</p>
+		<p>
+			<input id = "button" type="button" name="b1" value="1" onclick="display(b1.value)">
+			<input id = "button" type="button" name="b2" value="2" onclick="display(b2.value)">
+			<input id = "button" type="button" name="b3" value="3" onclick="display(b3.value)">
+			<input id = "button" type="button" name="bplus" value="+" onclick="display(bplus.value)">
+		</p>
+		<p>
+			<input id = "button" type="button" name="b0" value="0" onclick="display(b0.value)">
+			<input id = "button"  type="button" name="bdot" value="." onclick="display(bdot.value)">
+			<input id = "button" type="button" value="C" onclick="c()">
+			<input id = "button" type="button" name="bequal" value="=" onclick="txt.value=eval(txt.value)">
+		</p>
+		
+		
+	</form>
+</body>
+</html>
